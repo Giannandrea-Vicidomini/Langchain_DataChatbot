@@ -1,5 +1,6 @@
 .lang_venv
 files/*
+!files/instructions.txt
 docs
 .idea
 .env

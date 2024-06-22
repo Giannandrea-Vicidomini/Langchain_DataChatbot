@@ -1,0 +1,1 @@
+In this folder is the file you need to load and create embeddings for
