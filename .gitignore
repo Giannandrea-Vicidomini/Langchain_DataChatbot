@@ -1,0 +1,5 @@
+.lang_venv
+files/*
+docs
+.idea
+.env
