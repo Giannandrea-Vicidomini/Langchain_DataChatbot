@@ -8,4 +8,7 @@ LANGCHAIN_ENDPOINT=https://api.langchain.plus
 
 LANGCHAIN_API_KEY= 'get the key on langchain platform'
 
+DBPATH=docs\chroma\
+
+
 Fetch the actual key on the site
