@@ -20,7 +20,7 @@ def load_vector_db_from_file(db_path: str, file_path: str) -> Chroma:
 
         loader = Docx2txtLoader(file_path)
         splitter = RecursiveCharacterTextSplitter(
-            chunk_size=1000, chunk_overlap=150, separators=["\n", " "]
+            chunk_size=1000, chunk_overlap=350, separators=["\n", " "]
         )
         docs = loader.load()
         chunks = splitter.split_documents(docs)
