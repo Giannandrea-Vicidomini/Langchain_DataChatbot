@@ -10,5 +10,6 @@ LANGCHAIN_API_KEY= 'get the key on langchain platform'
 
 DBPATH=docs\chroma\
 
+GROQ_API_KEY='get key on groq'
 
 Fetch the actual key on the site
