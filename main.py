@@ -15,7 +15,7 @@ def main():
     load_dotenv()
 
     # si prepara il prompt
-    prompt = """Usa i seguenti pezzi di contesto per ottenere un risultato. Se non sai la ripsosta, dici semplicemente che non la sai, non provare ad inventare risposte. usa un massimoo di 4 frasi. mantieni la risposta il più concisa possibile. 
+    prompt = """Usa i seguenti pezzi di contesto per ottenere un risultato. Se non sai la risposta, dici semplicemente che non la sai, non provare ad inventare risposte. Mantieni la risposta il più concisa possibile. 
 {context}
 Domanda: {question}
 Risposta:"""
